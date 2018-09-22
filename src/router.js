@@ -20,6 +20,30 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+		},
+		{
+      path: '/profile',
+      name: 'profile',
+      // route level code-splitting
+      // this generates a separate chunk (profile.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "profile" */ './views/Profile.vue')
+		},
+		{
+      path: '/calendar',
+      name: 'calendar',
+      // route level code-splitting
+      // this generates a separate chunk (calendar.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "calendar" */ './views/Calendar.vue')
+		},
+		{
+      path: '/stats',
+      name: 'stats',
+      // route level code-splitting
+      // this generates a separate chunk (stats.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "stats" */ './views/Stats.vue')
     }
   ]
 })

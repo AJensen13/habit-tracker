@@ -10,6 +10,7 @@
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
+    "bulma": "^0.7.1",
     "chart.js": "2.7.2",
     "vue": "^2.5.17",
     "vue-chartjs": "3.4.0",

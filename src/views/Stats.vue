@@ -2,13 +2,15 @@
 	<div>
 		<h1>Stats</h1>
 		<!-- Global -->
-		<div>
-			<h4>Global Metrics</h4>
-			<GlobalMetrics class="global"></GlobalMetrics>
-		</div>
-		<!-- Breakdown -->
-		<div>
-			<h4>Stat Breakdown</h4>
+		<div class="columns">
+			<div class="column is-half">
+				<h4>Global Metrics</h4>
+				<GlobalMetrics></GlobalMetrics>
+			</div>
+			<!-- Breakdown -->
+			<div class="column is-half">
+				<h4>Stat Breakdown</h4>
+			</div>
 		</div>
 	</div>
 </template>
@@ -23,7 +25,4 @@ import GlobalMetrics from '../components/GlobalMetrics';
 </script>
 
 <style lang="scss">
-.global {
-	width: 50%;
-}
 </style>

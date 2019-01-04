@@ -1,0 +1,47 @@
+[
+	{
+		"_id": 1,
+		"first_name": "Andrew",
+		"last_name": "Jensen",
+		"events": [
+			1,
+			2,
+			3
+		],
+		"habits": [
+			"Habit 1",
+			"Habit 2",
+			"Habit 3"
+		],
+		"created_at": "10/20/1990",
+		"updated_at": "11/20/1990"
+	},
+	{
+		"_id": 2,
+		"first_name": "Josh",
+		"last_name": "Jensen",
+		"events": [
+			4,
+			5
+		],
+		"habits": [
+			"Habit 4",
+			"Habit 5"
+		],
+		"created_at": "10/20/1990",
+		"updated_at": "11/20/1990"
+	},
+	{
+		"_id": 3,
+		"first_name": "Christian",
+		"last_name": "Jensen",
+		"events": [
+			6
+		],
+		"habits": [
+			"Habit 6"
+		],
+		"created_at": "10/20/1990",
+		"updated_at": "11/20/1990"
+	}
+]

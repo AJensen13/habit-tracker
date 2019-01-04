@@ -1,0 +1,87 @@
+[
+	{
+		"_id": 1,
+		"habit": "Habit 1",
+		"before_act": "This is what led up to it",
+		"after_act": "This is what I did after",
+		"cope_reminder": "coping mechanism",
+		"tags": [
+			1,
+			2,
+			3 
+		], 
+		"time": "14:20",
+		"created_at": "10/20/1990",
+		"updated_at": "11/20/1990"
+	},
+	{
+		"_id": 2,
+		"habit": "Habit 2",
+		"before_act": "This is what led up to it",
+		"after_act": "This is what I did after",
+		"cope_reminder": "coping mechanism",
+		"tags": [
+			1
+		], 
+		"time": "14:20",
+		"created_at": "10/20/1990",
+		"updated_at": "11/20/1990"
+	},
+	{
+		"_id": 3,
+		"habit": "Habit 3",
+		"before_act": "This is what led up to it",
+		"after_act": "This is what I did after",
+		"cope_reminder": "coping mechanism",
+		"tags": [
+			3 
+		], 
+		"time": "14:20",
+		"created_at": "10/20/1990",
+		"updated_at": "11/20/1990"
+	},
+	{
+		"_id": 4,
+		"habit": "Habit 4",
+		"before_act": "This is what led up to it",
+		"after_act": "This is what I did after",
+		"cope_reminder": "coping mechanism",
+		"tags": [
+			1,
+			2,
+		], 
+		"time": "14:20",
+		"created_at": "10/20/1990",
+		"updated_at": "11/20/1990"
+	},
+	{
+		"_id": 5,
+		"habit": "Habit 5",
+		"before_act": "This is what led up to it",
+		"after_act": "This is what I did after",
+		"cope_reminder": "coping mechanism",
+		"tags": [
+			1,
+			2,
+			3 
+		], 
+		"time": "14:20",
+		"created_at": "10/20/1990",
+		"updated_at": "11/20/1990"
+	},
+	{
+		"_id": 6,
+		"habit": "Habit 6",
+		"before_act": "This is what led up to it",
+		"after_act": "This is what I did after",
+		"cope_reminder": "coping mechanism",
+		"tags": [
+			1,
+			2,
+			3 
+		], 
+		"time": "14:20",
+		"created_at": "10/20/1990",
+		"updated_at": "11/20/1990"
+	}
+]

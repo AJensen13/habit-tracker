@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import GlobalMetrics from '../components/GlobalMetrics';
+import GlobalMetrics from '../components/GlobalMetrics.vue';
 
 	export default {
 		name: 'stats',

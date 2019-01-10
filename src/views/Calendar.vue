@@ -10,7 +10,7 @@
 	</div>
 </template>
 <script>
-import HabitEntry from "../components/AppEntry";
+import HabitEntry from "../components/AppEntry.vue";
 import { FullCalendar } from 'vue-full-calendar';
 
 	export default {

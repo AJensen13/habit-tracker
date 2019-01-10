@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import eventList from '@/data/events.json'
-import tagList from '@/data/tags.json'
-import userList from '@/data/users.json'
+const eventList = require('../data/events.json')
+const tagList = require('../data/tags.json')
+const userList = require('../data/users.json')
 
 Vue.use(Vuex)
 
